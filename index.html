@@ -49,8 +49,20 @@
 
   <div class="card">
     <h3>الديون والأرباح</h3>
-    <p>متابعة الديون وتقارير الأرباح</p>
-  </div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  const SUPABASE_URL = "https://xusdygijknyafgjrtkic.supabase.co";
+  const SUPABASE_KEY = "ضع_المفتاح_العام_هنا";
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+  );
+
+  console.log("Brahim Business: Supabase initialized");
+</script>
+
 <script src="app.js"></script>
 </body>
 </html>
